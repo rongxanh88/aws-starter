@@ -153,6 +153,8 @@ Resources:
 
             sudo yum install -y jq
 
+            sudo yum install -y ruby
+
             cat > /tmp/install_script.sh << EOF
               # START
               echo "Setting up NodeJS Environment"
